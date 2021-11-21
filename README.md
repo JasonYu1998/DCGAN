@@ -5,6 +5,6 @@
 0. 輸入輸出: input:random 100,output:64,64,3
 1. data : 64,64,3 celeb dataset
 2. model 架構 : G:100 -> 4,4,1024 -> 8,8,512 -> 16,16,256 -> 32,32,128 -> 64,64,3
-3.              D: 64,64,3 -> 64,64,64 -> 64,64,128 -> 1
-4. loss 函數 : BinaryCrossentropy
-5. 訓練機制
+                ; D: 64,64,3 -> 64,64,64 -> 64,64,128 -> 1
+3. loss 函數 : BinaryCrossentropy
+4. 訓練機制
